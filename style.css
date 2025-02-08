@@ -1,5 +1,6 @@
 body {
-    font-family: 'JetBrains Mono',  sans-serif;          
+    font-family: 'JetBrains Mono',  sans-serif;
+    margin: auto;          
     
 }
 
@@ -7,10 +8,20 @@ button {
     font-family: inherit;
 }
 
+#top-most-section {
+   background-color: #0D1B2A;
+   color: #f9faf8;
+}
+
 .header {
     display: flex;
     justify-content: space-between;        
     margin-bottom: 80px;
+}
+
+.logo-text {
+    font-size: 24px;    
+
 }
 
 ul {
@@ -20,3 +31,14 @@ ul {
     display: flex;
     gap: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: #C5DFF8;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #3D5AFE;
+}
+
