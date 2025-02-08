@@ -1,22 +1,27 @@
 body {
-    font-family: 'JetBrains Mono',  sans-serif;
-    margin: auto;          
-    
+    font-family: 'JetBrains Mono',  sans-serif;            
+    margin: auto;
 }
 
 button {
     font-family: inherit;
+    align-self: flex-start;   
 }
 
 #top-most-section {
    background-color: #0D1B2A;
    color: #f9faf8;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-bottom: 40px;
+   
 }
 
 .header {
     display: flex;
-    justify-content: space-between;        
-    margin-bottom: 80px;
+    justify-content: space-between;    
+    padding: 20px;
 }
 
 .logo-text {
@@ -43,6 +48,24 @@ a:hover {
 }
 
 .hero {
-    display: flex;  
+    display: flex;
+    gap: 40px;
+    padding: 20px;      
 }
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;   
+    
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #C5DFF8;
+}
