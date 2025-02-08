@@ -1,7 +1,22 @@
 body {
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono',  sans-serif;          
+    
 }
 
 button {
     font-family: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;        
+    margin-bottom: 80px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
