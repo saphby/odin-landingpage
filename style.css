@@ -42,3 +42,7 @@ a:hover {
     color: #3D5AFE;
 }
 
+.hero {
+    display: flex;
+    
+}
