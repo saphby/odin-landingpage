@@ -81,3 +81,17 @@ a:hover {
 .hero-image {
     box-shadow: 2px 4px 9px black;
 }
+
+#middle-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #0A192F;
+}
+
+
