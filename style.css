@@ -20,14 +20,14 @@ button {
    display: flex;
    flex-direction: column;
    gap: 40px;
-   padding-bottom: 20px;   
+   padding-bottom: 20px;         
    
 }
 
 .header {
     display: flex;
     justify-content: space-between;    
-    padding: 20px;    
+    padding: 20px;        
 }
 
 .logo-text {
@@ -76,4 +76,8 @@ a:hover {
 .hero-subtext {
     font-size: 18px;
     color: #C5DFF8;
+}
+
+.hero-image {
+    box-shadow: 2px 4px 9px black;
 }
