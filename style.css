@@ -5,7 +5,13 @@ body {
 
 button {
     font-family: inherit;
-    align-self: flex-start;   
+    align-self: flex-start;
+    background-color: #3D5AFE;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;   
 }
 
 #top-most-section {
@@ -14,14 +20,14 @@ button {
    display: flex;
    flex-direction: column;
    gap: 40px;
-   padding-bottom: 40px;
+   padding-bottom: 20px;   
    
 }
 
 .header {
     display: flex;
     justify-content: space-between;    
-    padding: 20px;
+    padding: 20px;    
 }
 
 .logo-text {
@@ -50,13 +56,15 @@ a:hover {
 .hero {
     display: flex;
     gap: 40px;
-    padding: 20px;      
+    padding: 20px;
+    justify-content: space-between;      
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 8px;   
+    gap: 8px;
+    flex-basis: 600px;   
     
 }
 
