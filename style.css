@@ -86,20 +86,23 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;    
+    gap: 20px;
+    padding-bottom: 20px;    
 }
 
 .middle-title {
     font-size: 36px;
     font-weight: 900;
     color: #0A192F;
+    padding: 20px;    
 }
 
 .middle-content {
     display: flex;
     width: 800px;   
     gap: 20px;
-    justify-content: center;         
+    justify-content: center;
+    padding: 10px;             
 }
 
 .moon-roasted, .galactic-flav, .astronaut-app, .lunar-loyal {
