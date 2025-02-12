@@ -105,5 +105,12 @@ a:hover {
 .moon-roasted, .galactic-flav, .astronaut-app, .lunar-loyal {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}  
+    gap: 10px;    
+} 
+
+.content-subtext {    
+    color: #0A192F;
+    font-size: 18px;
+    font-weight: 225;
+    text-align: center;    
+}
