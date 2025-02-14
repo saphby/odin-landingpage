@@ -1,6 +1,6 @@
 body {
     font-family: 'JetBrains Mono',  sans-serif;
-    max-width: 1200px;            
+    max-width: 2000px;                
     margin: auto;
     background-color: #0D1B2A;
 }
@@ -20,6 +20,7 @@ button {
    color: #f9faf8;
    display: flex;
    flex-direction: column;
+   justify-content: space-evenly;
    gap: 40px;
    padding-bottom: 20px;         
    
@@ -83,7 +84,7 @@ a:hover {
     box-shadow: 2px 4px 9px black;
 }
 
-#middle-top-section {
+#middle-top-section {    
     background-color: #f9faf8;
     display: flex;
     flex-direction: column;
