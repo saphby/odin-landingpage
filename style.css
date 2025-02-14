@@ -20,7 +20,6 @@ button {
    color: #f9faf8;
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
    gap: 40px;
    padding-bottom: 20px;         
    
@@ -119,4 +118,28 @@ a:hover {
     font-size: 18px;
     font-weight: 225;
     text-align: center;    
+}
+
+#middle-bottom-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 10px;    
+}
+
+.quote-subtext {
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    margin: 0px;
 }
