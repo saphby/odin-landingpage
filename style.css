@@ -199,3 +199,10 @@ a:hover {
     color: #f9faf8;
     text-decoration: none;
 }
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
