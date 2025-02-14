@@ -195,7 +195,7 @@ a:hover {
     border-radius: 4px;
 }
 
-.action-link:hover, .action-link {
+.action-link:hover, .action-link, .open-link:hover, .open-link {
     color: #f9faf8;
     text-decoration: none;
 }
@@ -206,3 +206,4 @@ a:hover {
     align-items: center;
     color: #f9faf8;
 }
+
