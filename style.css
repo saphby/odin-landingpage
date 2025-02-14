@@ -44,7 +44,7 @@ body {
     gap: 20px;
 }
 
-a {
+.header-links {
     text-decoration: none;
     color: #C5DFF8;
     font-size: 18px;
